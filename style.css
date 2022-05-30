@@ -20,7 +20,7 @@ body {
   font-family: fantasy, cursive;
 }
 
-.centered-main-page-element {
+.main-wrapper {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -41,7 +41,9 @@ ul {
   padding: 0px;
 }
 
-li, 
+li,
+h1,
+h2, 
 h3 {
   list-style: none;
 }
@@ -66,8 +68,8 @@ button:hover {
 }
 
 /* Heading */
-h3,
-label[for="new-task"] {
+.title,
+.block-add__label {
   color: #333;
   font-weight: 700;
   font-size: 15px;
